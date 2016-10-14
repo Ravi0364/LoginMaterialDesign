@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import com.cn.pn.R;
 
 /**
- * Created by Ravi on 29/07/15.
+ * Created by Ravi on 29/07/16.
  */
 public class FriendsFragment extends Fragment {
 

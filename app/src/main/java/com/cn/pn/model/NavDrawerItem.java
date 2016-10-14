@@ -1,7 +1,7 @@
 package com.cn.pn.model;
 
 /**
- * Created by Ravi on 29/07/15.
+ * Created by Ravi on 29/07/16.
  */
 public class NavDrawerItem {
     private boolean showNotify;

@@ -16,6 +16,8 @@ import com.cn.pn.R;
 
 public class MainActivity extends AppCompatActivity implements FragmentDrawer.FragmentDrawerListener {
 
+    // This is the main activity
+
     private static String TAG = MainActivity.class.getSimpleName();
 
     private Toolbar mToolbar;
