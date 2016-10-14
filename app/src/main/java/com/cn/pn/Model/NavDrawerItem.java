@@ -1,4 +1,4 @@
-package com.cn.pn.model;
+package com.cn.pn.Model;
 
 /**
  * Created by Ravi on 29/07/16.

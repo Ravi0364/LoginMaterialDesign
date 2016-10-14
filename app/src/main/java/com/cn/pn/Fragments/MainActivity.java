@@ -1,4 +1,4 @@
-package com.cn.pn.activity;
+package com.cn.pn.Fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -16,7 +16,6 @@ import com.cn.pn.R;
 
 public class MainActivity extends AppCompatActivity implements FragmentDrawer.FragmentDrawerListener {
 
-    // This is the main activity
 
     private static String TAG = MainActivity.class.getSimpleName();
 
@@ -84,12 +83,12 @@ public class MainActivity extends AppCompatActivity implements FragmentDrawer.Fr
                 title = getString(R.string.title_home);
                 break;
             case 1:
-                fragment = new FriendsFragment();
-                title = getString(R.string.title_friends);
+                fragment = new FavouriteFragment();
+                title = getString(R.string.title_favourite);
                 break;
             case 2:
-                fragment = new MessagesFragment();
-                title = getString(R.string.title_messages);
+                fragment = new MyProfileFragment();
+                title = getString(R.string.title_myprofile);
                 break;
             default:
                 break;

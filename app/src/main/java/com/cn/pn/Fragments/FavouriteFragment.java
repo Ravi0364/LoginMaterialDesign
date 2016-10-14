@@ -1,4 +1,4 @@
-package com.cn.pn.activity;
+package com.cn.pn.Fragments;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -12,9 +12,9 @@ import com.cn.pn.R;
 /**
  * Created by Ravi on 29/07/16.
  */
-public class MessagesFragment extends Fragment {
+public class FavouriteFragment extends Fragment {
 
-    public MessagesFragment() {
+    public FavouriteFragment() {
         // Required empty public constructor
     }
 
@@ -27,7 +27,7 @@ public class MessagesFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_messages, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_favourite, container, false);
 
 
         // Inflate the layout for this fragment

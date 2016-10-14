@@ -1,4 +1,4 @@
-package com.cn.pn.activity;
+package com.cn.pn.Fragments;
 
 /**
  * Created by Ravi on 29/07/16.
@@ -22,8 +22,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.cn.pn.R;
-import com.cn.pn.adapter.NavigationDrawerAdapter;
-import com.cn.pn.model.NavDrawerItem;
+import com.cn.pn.Adapter.NavigationDrawerAdapter;
+import com.cn.pn.Model.NavDrawerItem;
 
 public class FragmentDrawer extends Fragment {
 

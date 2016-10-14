@@ -1,4 +1,4 @@
-package com.cn.pn.adapter;
+package com.cn.pn.Adapter;
 
 /**
  * Created by Ravi on 29/07/16.
@@ -14,7 +14,7 @@ import java.util.Collections;
 import java.util.List;
 
 import com.cn.pn.R;
-import com.cn.pn.model.NavDrawerItem;
+import com.cn.pn.Model.NavDrawerItem;
 
 public class NavigationDrawerAdapter extends RecyclerView.Adapter<NavigationDrawerAdapter.MyViewHolder> {
     List<NavDrawerItem> data = Collections.emptyList();
